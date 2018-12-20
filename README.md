@@ -4,17 +4,17 @@
 ## 1. License Agreement
 
 **Copyright (C) 2018 - Andrei M. Butnaru, Radu Tudor Ionescu**
- 
+
 This package contains free data and software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
- 
+
 This data set and software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
- 
+
  You should have received a copy of the GNU General Public License along with this data set and software (see COPYING.txt package file). If not, see the:
  [GNU License Agreement](http://www.gnu.org/licenses/).
 
 
 ## 2. Citation
- 
+
 Please cite the corresponding work (see citation.bib file to obtain the citation in BibTex format) if you use this data set and software (or a modified version of it) in any scientific work:
 
 **[1] Andrei M. Butnaru, Radu Tudor Ionescu. MOROCO: The Moldavian and Romanian Dialectal Corpus. ArXiv, 2019 (to appear).**
@@ -51,46 +51,46 @@ The samples are preprocessed in order to eliminate named entities. This is requi
 The data set is divided in three folders, corresponding to the three subsets for training, validation and testing. In each subset there are three .txt files:
 - ###### samples.txt
 
-The samples.txt file contains one sample per row. The format of each row is the following:
-```
-ID_1    SampleText_1
-ID_2    SampleText_2
-...
-ID_n    SampleText_n
-```
+  The samples.txt file contains one sample per row. The format of each row is the following:
+  ```
+  ID_1    SampleText_1
+  ID_2    SampleText_2
+  ...
+  ID_n    SampleText_n
+  ```
 
 - ###### dialect_labels.txt
 
-The dialect_labels.txt file contains one dialect label per row. The format of each row is the following:
-```
-ID_1    DialectLabel_1
-ID_2    DialectLabel_2
-...
-ID_n    DialectLabel_n
-```
+  The dialect_labels.txt file contains one dialect label per row. The format of each row is the following:
+  ```
+  ID_1    DialectLabel_1
+  ID_2    DialectLabel_2
+  ...
+  ID_n    DialectLabel_n
+  ```
 
-The labels are associated as follows:
-       - 1 => Moldavian
-       - 2 => Romanian
+  The labels are associated as follows:
+  - 1 => Moldavian
+  - 2 => Romanian
 
 - ###### category_labels.txt
 
-The category_labels.txt file contains one category label per row. The format of each row is the following:
-```
-ID_1    CategoryLabel_1
-ID_2    CategoryLabel_2
-...
-ID_n    CategoryLabel_n
-```
+  The category_labels.txt file contains one category label per row. The format of each row is the following:
+  ```
+  ID_1    CategoryLabel_1
+  ID_2    CategoryLabel_2
+  ...
+  ID_n    CategoryLabel_n
+  ```
 
-The labels are associated as follows:
-       - 1 => culture
-       - 2 => finance
-       - 3 => politics
-       - 4 => science
-       - 5 => sports
-       - 6 => tech
-       
+  The labels are associated as follows:
+  - 1 => culture
+  - 2 => finance
+  - 3 => politics
+  - 4 => science
+  - 5 => sports
+  - 6 => tech
+
 The IDs in each file are listed in exactly the same order. This means that, for a given index i (1 <= i <= n), the `SampleText_i` identified by `ID_i` has the dialectal label `DialectLabel_i` and the category label `CategoryLabel_i`.
 
 
@@ -101,11 +101,11 @@ The MOROCO data set and accompanying software is available at:
 
 
 ## 5. Software Usage
- 
+
 For convenience, we provide Python and Java code to load the data set in the memory. The code has no dependencies on third-party libraries. It is straight forward to
 compile and run the code.
- 
-#### Java 
+
+#### Java
 
 To load the MOROCO data set in Java, use the following commands:
 ```
@@ -122,5 +122,5 @@ python loadDataSet.py
 
 
 ## 5. Feedback
- 
+
  We are happy to hear your feedback and suggestions at: raducu[dot]ionescu{at}gmail(dot)com
