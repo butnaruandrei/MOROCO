@@ -121,6 +121,6 @@ python loadDataSet.py
 ```
 
 
-## 5. Feedback
+## 6. Feedback
 
  We are happy to hear your feedback and suggestions at: raducu[dot]ionescu{at}gmail(dot)com
