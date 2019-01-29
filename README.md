@@ -17,7 +17,7 @@ This data set and software is distributed in the hope that it will be useful, bu
 
 Please cite the corresponding work (see citation.bib file to obtain the citation in BibTex format) if you use this data set and software (or a modified version of it) in any scientific work:
 
-**[1] Andrei M. Butnaru, Radu Tudor Ionescu. MOROCO: The Moldavian and Romanian Dialectal Corpus. ArXiv, 2019 (to appear).**
+**[1] Andrei M. Butnaru, Radu Tudor Ionescu. MOROCO: The Moldavian and Romanian Dialectal Corpus. ArXiv, 2019 [https://arxiv.org/abs/1901.06543](https://arxiv.org/abs/1901.06543).**
 
 
 ## 3. Description
