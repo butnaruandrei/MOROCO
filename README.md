@@ -17,7 +17,7 @@ This data set and software is distributed in the hope that it will be useful, bu
 
 Please cite the corresponding work (see citation.bib file to obtain the citation in BibTex format) if you use this data set and software (or a modified version of it) in any scientific work:
 
-**[1] Andrei M. Butnaru, Radu Tudor Ionescu. MOROCO: The Moldavian and Romanian Dialectal Corpus. ArXiv, 2019 [https://arxiv.org/abs/1901.06543](https://arxiv.org/abs/1901.06543).**
+**[1] Andrei M. Butnaru, Radu Tudor Ionescu. MOROCO: The Moldavian and Romanian Dialectal Corpus. ArXiv, 2019 [(link to paper)](https://arxiv.org/abs/1901.06543).**
 
 
 ## 3. Description
@@ -44,7 +44,7 @@ For each sample, the data set provides corresponding dialectal and category labe
 - Moldavian => Romanian cross-dialect multi-class classification by topic: the task is to classify the samples written in the Romanian dialect into six topics, using a model trained on samples written in the Moldavian dialect
 - Romanian => Moldavian cross-dialect multi-class classification by topic: the task is to classify the samples written in the Moldavian dialect into six topics, using a model trained on samples written in the Romanian dialect
 
-The samples are preprocessed in order to eliminate named entities. This is required to prevent classifiers from taking the decision based on features that are not related to the dialect or the topics. For example, named entities that refer to city names in Romania or Moldova can provide clues about the dialect, while named entities that refer to politicians or football players names can provide clues about the topic. For more details, please read the paper [1].
+The samples are preprocessed in order to eliminate named entities. This is required to prevent classifiers from taking the decision based on features that are not related to the dialect or the topics. For example, named entities that refer to city names in Romania or Republic of Moldova can provide clues about the dialect, while named entities that refer to politicians or football players names can provide clues about the topic. For more details, please read the paper [1].
 
 #### Data Organization
 
