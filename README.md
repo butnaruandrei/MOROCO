@@ -4,12 +4,7 @@
 
 **Copyright (C) 2018 - Andrei M. Butnaru, Radu Tudor Ionescu**
 
-This package contains free data and software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
-
-This data set and software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
- You should have received a copy of the GNU General Public License along with this data set and software (see COPYING.txt package file). If not, see the:
- [GNU License Agreement](http://www.gnu.org/licenses/).
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
 
 
 ## 2. Citation
